@@ -21,3 +21,5 @@ file.write(f"d) {option_c}\n")
 file.write(f"c) {option_d}\n")
 file.write(f"Correct Answer: {correct_answer}\n")
 file.write("---\n")
+
+print("\nAll questions have been saved to "questions.txt".")
