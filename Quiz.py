@@ -17,8 +17,8 @@ with open("questions.txt", "w") as file:
         file.write(f"Question {quests}: {question}\n")
         file.write(f"a) {option_a}\n")
         file.write(f"b) {option_b}\n")
-        file.write(f"d) {option_c}\n")
-        file.write(f"c) {option_d}\n")
+        file.write(f"c) {option_c}\n")
+        file.write(f"d) {option_d}\n")
         file.write(f"Correct Answer: {correct_answer}\n")
         file.write("---\n")
 
