@@ -1,0 +1,21 @@
+Question 1: What is the capital of France
+a) paris
+b) london
+c) rome
+d) berlin
+Correct Answer: a
+---
+Question 2: which planet is known as teh REd Planet
+a) earth
+b) jupiter
+c) mars
+d) venus
+Correct Answer: c
+---
+Question 3: What is 5 multiplied by 6?
+a) 25
+b) 30
+c) 35
+d) 40
+Correct Answer: b
+---
