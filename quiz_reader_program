@@ -4,3 +4,9 @@ with open("questions.txt", "r") as file:
 
 blocks = content.strip().split("---\n")
 questions = []
+
+for block in blocks:  
+    lines = block.strip().split("\n")
+    if len(lines) < 6:
+        continue
+    
