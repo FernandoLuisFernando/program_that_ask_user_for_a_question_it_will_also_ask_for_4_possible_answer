@@ -27,3 +27,11 @@ questions.append({
     },
     "answer": correct_answer
 }) 
+
+question = random.choice(questions)
+
+print("\n" +  question["question"])
+for key, value in question["options"].items():
+    print(f"{key}) {value}")
+
+    
