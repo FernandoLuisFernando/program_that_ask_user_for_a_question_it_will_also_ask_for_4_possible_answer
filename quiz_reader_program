@@ -16,3 +16,14 @@ option_b = lines[2][3:].strip()
 option_c = lines[3][3:].strip()
 option_d = lines[4][3:].strip()
 correct_answer = lines[5].split(": ")[1].strip()
+
+questions.append({
+    "question": q_text,
+    "options": {
+        "a": option_a,
+        "b": option_b,
+        "c": option_c,
+        "d": option_d
+    },
+    "answer": correct_answer
+}) 
