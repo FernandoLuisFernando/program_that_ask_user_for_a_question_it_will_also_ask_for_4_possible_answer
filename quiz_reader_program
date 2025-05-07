@@ -34,4 +34,16 @@ print("\n" +  question["question"])
 for key, value in question["options"].items():
     print(f"{key}) {value}")
 
-    
+user_answer = " "
+while user_answer not in ["a", "b", "c", "d"]:
+    user_answer = input("Enter your answer (a/b/c/d): ").lower()
+    if user_answer not in ["a", "b", "c", "d"]:
+        print("Please enter a valid choice (a, b ,c , or d).")
+
+if user_answer == question["answer"]:
+    print("Correct!")
+else:
+    correct_option = question["options"][question["answer"]]
+    print(f"Incorrect! The correct answer is: {question['answer']}) {correct_option}")
+
+
